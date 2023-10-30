@@ -2,9 +2,11 @@
 
 # Check if MY_PASSWORD is set
 if [ -z "$MY_PASSWORD" ]; then
-    echo "Password not set. Exiting..."
-    exit 1
+    read -s -p "Enter your password to install necessary packages: " MY_PASSWORD
+    # echo "Password not set. Exiting..."
+    echo ""
 fi
+
 
 # CUSTOM RELATED
 echo $MY_PASSWORD | sudo -S apt-get install -y sshpass;
@@ -33,8 +35,10 @@ mkdir catkin_ws_deformable;
 cd catkin_ws_deformable;
 rm -rf {*,.*};
 
-git clone https://github.com/burakaksoy/deformable_manipulations.git .;
+mkdir src;
 cd src;
+
+git clone https://github.com/burakaksoy/deformable_manipulations.git;
 git clone https://github.com/burakaksoy/deformable_manipulations_rope.git; # Private
 git clone https://github.com/burakaksoy/deformable_manipulations_fabric.git; # Private
 git clone https://github.com/burakaksoy/dlo_simulator_stiff_rods.git; # Private
