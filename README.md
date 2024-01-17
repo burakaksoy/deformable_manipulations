@@ -1,5 +1,5 @@
 # Collaborative Manipulation of Deformable Objects with Obstacle Avoidance
-This repository includes the implementation of "Collaborative Manipulation of Deformable Objects with Obstacle Avoidance" paper submitted for ICRA 2023.
+This repository includes the implementation of "Collaborative Manipulation of Deformable Objects with Obstacle Avoidance" paper submitted for ICRA 2024.
 
 ## Installation
 On a ROS Noetic installed Ubuntu 20.04, download and run `install.bash`. 
