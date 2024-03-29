@@ -62,12 +62,15 @@ cd src;
 
 git clone https://github.com/burakaksoy/deformable_manipulations.git;
 git clone https://github.com/burakaksoy/deformable_manipulations_rope.git; # Private
+git clone https://github.com/burakaksoy/deformable_manipulations_centralized_rope.git; # Private
 git clone https://github.com/burakaksoy/deformable_manipulations_fabric.git; # Private
 git clone https://github.com/burakaksoy/dlo_simulator_stiff_rods.git; # Private
 git clone https://github.com/burakaksoy/fabric_simulator.git; # Private
 git clone https://github.com/burakaksoy/rviz_ortho_view_controller.git;
 git clone https://github.com/facontidavide/rosbag_editor.git;
 # git clone --branch throttle-tf-repeated-data-error https://github.com/burakaksoy/geometry2.git; # to fix tf repeating data warning flooding
+# git clone https://github.com/burakaksoy/topic_tf_transformers.git; # to read odom from tf
+
 
 cd ..;
 source /opt/ros/noetic/setup.bash;
