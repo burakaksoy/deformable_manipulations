@@ -51,6 +51,8 @@ pip3 install open3d; # ~300MB ,needed for obj. simplification!
 
 pip3 install simple-pid;
 
+pip3 install yourdfpyp[full] # needed for deformable_simulator_scene_utilities
+
 ## Building Steps
 cd;
 mkdir catkin_ws_deformable;
@@ -65,6 +67,8 @@ git clone https://github.com/burakaksoy/deformable_manipulations_rope.git; # Pri
 git clone https://github.com/burakaksoy/deformable_manipulations_centralized_rope.git; # Private
 git clone https://github.com/burakaksoy/deformable_manipulations_fabric.git; # Private
 git clone https://github.com/burakaksoy/deformable_manipulations_tent_building.git; # Private
+git clone https://github.com/burakaksoy/deformable_simulator_scene_utilities.git # Public
+git clone https://github.com/burakaksoy/deformable_description.git # Public
 git clone https://github.com/burakaksoy/dlo_simulator_stiff_rods.git; # Private
 git clone https://github.com/burakaksoy/fabric_simulator.git; # Private
 git clone https://github.com/burakaksoy/rviz_ortho_view_controller.git;
