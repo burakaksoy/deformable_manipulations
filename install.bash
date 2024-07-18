@@ -21,6 +21,12 @@ echo $MY_PASSWORD | sudo -S apt-get install -y ros-noetic-visualization-tutorial
 # PYTHON RELATED
 echo $MY_PASSWORD | sudo -S apt-get install -y python3-pip;
 
+## To install Tesseract Python Planning on Ubuntu 20.04 and Ubuntu 22.04:
+sudo apt install python3-pip # python3-numpy
+# The supplied version of pip on Ubuntu 20.04 is too old for manylinux_2_31, upgrade pip
+python3 -m pip install -U pip
+python3 -m pip install --user  tesseract_robotics tesseract_robotics_viewer
+
 # pip3 install pyserial;
 # pip3 install scs; # A solver (splitting conic solver)
 pip3 install quadprog; # A solver
@@ -38,9 +44,9 @@ pip3 install qpsolvers;  # another interface for available qp solvers
 pip3 install pandas;
 pip3 install pygame;
 pip3 install scipy;
-pip3 install numpy==1.21; # needed to resolve the issue "AttributeError: module 'numpy' has no attribute 'typeDict'"
+pip3 install numpy #==1.21; # needed to resolve the issue "AttributeError: module 'numpy' has no attribute 'typeDict'"
 pip3 install shapely; # needed to calculate the swarm footprint polygon and costmap parameter updater functions
-pip3 install matplotlib==3.7.3;
+pip3 install matplotlib #==3.7.3;
 
 
 pip3 install meshpy;
@@ -51,7 +57,7 @@ pip3 install open3d; # ~300MB ,needed for obj. simplification!
 
 pip3 install simple-pid;
 
-pip3 install yourdfpyp[full] # needed for deformable_simulator_scene_utilities
+pip3 install yourdfpy[full] # needed for deformable_simulator_scene_utilities
 
 ## Building Steps
 cd;
