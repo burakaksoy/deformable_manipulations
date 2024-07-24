@@ -53,7 +53,7 @@ pip3 install meshpy;
 pip3 install trimesh;
 pip3 install python-fcl;
 pip3 install rtree;
-pip3 install open3d; # ~300MB ,needed for obj. simplification!
+pip3 install open3d; # ~300MB ,needed for obj. simplification! (You might need to install the following packages: pip3 install testresources)
 
 pip3 install simple-pid;
 
