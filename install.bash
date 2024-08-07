@@ -76,7 +76,9 @@ git clone https://github.com/burakaksoy/deformable_manipulations_tent_building.g
 git clone https://github.com/burakaksoy/deformable_simulator_scene_utilities.git # Public
 git clone https://github.com/burakaksoy/deformable_description.git # Public
 git clone https://github.com/burakaksoy/dlo_simulator_stiff_rods.git; # Private
+git clone https://github.com/burakaksoy/dlo_approximation.git; # Public. Used to approximate the dlo with fewer rigid bodies than the simulation representation.
 git clone https://github.com/burakaksoy/fabric_simulator.git; # Private
+git clone https://github.com/burakaksoy/odio_urdf.git # Public, needed for auto-generating deformable urdf files
 git clone https://github.com/burakaksoy/rviz_ortho_view_controller.git;
 git clone https://github.com/facontidavide/rosbag_editor.git;
 # git clone --branch throttle-tf-repeated-data-error https://github.com/burakaksoy/geometry2.git; # to fix tf repeating data warning flooding
