@@ -82,7 +82,7 @@ git clone https://github.com/burakaksoy/odio_urdf.git # Public, needed for auto-
 git clone https://github.com/burakaksoy/rviz_ortho_view_controller.git;
 git clone https://github.com/facontidavide/rosbag_editor.git;
 # git clone --branch throttle-tf-repeated-data-error https://github.com/burakaksoy/geometry2.git; # to fix tf repeating data warning flooding
-# git clone https://github.com/burakaksoy/topic_tf_transformers.git; # to read odom from tf
+git clone https://github.com/burakaksoy/topic_tf_transformers.git; # to read odom from tf
 
 
 cd ..;
