@@ -73,6 +73,7 @@ git clone https://github.com/burakaksoy/deformable_manipulations_rope.git; # Pri
 git clone https://github.com/burakaksoy/deformable_manipulations_centralized_rope.git; # Private
 git clone https://github.com/burakaksoy/deformable_manipulations_fabric.git; # Private
 git clone https://github.com/burakaksoy/deformable_manipulations_tent_building.git; # Private
+git clone https://github.com/burakaksoy/deformable_manipulations_composite_layup.git; # Private
 git clone https://github.com/burakaksoy/deformable_simulator_scene_utilities.git # Public
 git clone https://github.com/burakaksoy/deformable_description.git # Public
 git clone https://github.com/burakaksoy/dlo_simulator_stiff_rods.git; # Private
