@@ -6,6 +6,10 @@ This repository includes the implementation of
 Automation Science and Engineering (T-ASE), 2025. [ArXiv Preprint: arXiv:2503.04007].
 - B. Aksoy, J. T. Wen, “Collaborative Human-Robot Manipulation for Composite Layup Applications”, to be submitted
 
+as part of the PhD thesis:
+- "A unified architecture and control framework for safe and collaborative human-robot manipulation of deformable objects"
+https://hdl.handle.net/20.500.13015/7087
+
 ## Installation
 On a ROS Noetic installed Ubuntu 20.04, download and run `install.bash`. 
 
